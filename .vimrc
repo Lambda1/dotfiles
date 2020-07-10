@@ -13,7 +13,6 @@ set smartindent
 set cursorline
 
 set formatoptions+=mM
-set textwidth=80
 
 " Note: Skip initialization for vim-tiny or vim-small.
 if 0 | endif
