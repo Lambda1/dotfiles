@@ -1,4 +1,8 @@
 syntax on
+set encoding=utf-8
+set fileencodings=utf-8
+set fileformats=unix,dos
+
 set number
 set backspace=indent,eol,start
 set tabstop=4
