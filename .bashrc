@@ -1,3 +1,3 @@
 source ~/.git-prompt.sh
 GIT_PS1_SHOWDIRTYSTATE=true
-PS1="\[\e[1;34m\][\u@\h \w]\\$\[\e[m\] \[\e[32m\] $(__git_ps1 "(%s)") \[\e[m\]"
+export PS1='\[\e[01;34m\]\u@\h\[\e[0m\]\[\e[01;31m\][\w$(__git_ps1)]\[\e[0m\]\[\e[01;34m\]\\$\[\e[0m\] '
