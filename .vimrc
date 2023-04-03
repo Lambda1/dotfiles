@@ -79,6 +79,7 @@ endif
 if has('nvim')
 	" plugin
 	packadd vim-jetpack
+	let g:jetpack_download_method = 'curl'
 	call jetpack#begin()
 		Jetpack 'tani/vim-jetpack', {'opt': 1} "bootstrap
 		Jetpack 'lambdalisue/fern.vim'
